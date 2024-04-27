@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Timetable</title>
+  
+  <style>
+   
+
+   body {
+      background-image: url("[path-to-your-image.jpg]"); /* Replace with your image path */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      background-color: skyblue;
+      margin-top: 50px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.8); /* White background with 20% transparency */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for the table */
+    }
+    th, td {
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    .time {
+      background-color: #eee;
+      font-weight: bold;
+    }
+    .practical {
+      background-color: #f5f5f5;
+    }
+  </style>
+</head>
+<body>
+  <h1> Timetable </h1>
+ 
+  <table>
+    <tr>
+      <th class="time" rowspan="2">Time</th>
+      <th colspan="6">Day</th>
+    </tr>
+    <tr>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+    </tr>
+    <tr>
+      <td class="time">8:00 AM</td>
+      <td>M1</td>
+      <td>Physics</td>
+      <td>Mechanics</td>
+      <td>CP</td>
+      <td>CP</td>
+    </tr>
+    <tr>
+      <td class="time">9:00 AM</td>
+      <td>Physics</td>
+      <td>Mechanics</td>
+      <td>CP</td>
+      <td>M1</td>      <td>M1</td>
+    </tr>
+    <tr>
+      <td class="practical">10:00 AM</td>
+      <td colspan="5">Practical Session 1</td>
+    </tr>
+    <tr>
+      <td class="time">11:00 AM</td>
+      <td>Mechanics</td>
+      <td>CP</td>
+      <td>M1</td>
+      <td>Physics</td>
+      <td>Physics</td>
+    </tr>
+    <tr>
+      <td class="time">12:00 PM</td>
+      <td>CP</td>
+      <td>M1</td>
+      <td>Physics</td>
+      <td>Mechanics</td>
+      <td>Mechanics</td>
+    </tr>
+    <tr>
+      <td class="practical">1:00 PM</td>
+      <td colspan="5">Practical Session 2</td>
+    </tr>
+  </table>
+</body>
+<html>

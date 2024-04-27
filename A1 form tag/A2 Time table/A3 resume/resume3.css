@@ -1,0 +1,64 @@
+body {
+    background-image: url(resume1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Optional: cover the entire background */
+}
+
+
+
+
+
+.parent{
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(236, 243, 246);
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    border-width: 5px;
+    border-color: black;
+    border-style: double;
+    
+}
+.c1{
+    width: 800px;
+    height: 200px;
+    background-color:rgb(176, 211, 227);
+    text-align: auto;
+    margin-right: 100px;
+    
+    
+
+}
+
+.c2{
+    width: 300px;
+    height: 330px;
+    background-color: rgb(176, 211, 227);
+    margin-top: 50px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.c3{
+    float: right;
+    width: 300px;
+    height: 200px;
+    background-color:rgb(176, 211, 227);
+    padding :10px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+
+    
+}
+.c4{
+    width:400px ;
+    height: 420px;
+    background-color:rgb(176, 211, 227) ;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 30px;
+}
+
